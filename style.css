@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+
+
+.container{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    /* text-align: center; */
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    /* font-size: 25px; */
+}
+
+.box{
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 50px;
+    border: 2px solid black;
+}
+
+#ip{
+    font-size: 25px;
+    width: 100%;
+}
+.ip{
+    font-size: 25px;
+    width: 100%;
+}
+
+textarea{
+    width: 100%;
+    font-size: 25px;
+}
+p{
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.subBox{
+    /* margin: 0 auto;
+    width: 30%; */
+    font-size: 20px;
+    margin-bottom: 70px;
+    /* display: flex;
+    justify-content: center; */
+    text-align: center;
+}
+
+.sub{
+    /* font-size: 20em; */
+    /* padding: 10px; */
+    cursor: pointer;
+    /* font-size: 25px; */
+}
+
+/* ここまでindex.php */
+
+.verification{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 100px;
+}
+
+.checkBox{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+.btn{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+button{
+    width: 10%;
+    transition: 0.5s;
+    border-radius: 10%;
+    font-size: 15px;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+.ok{
+    width: 10%;
+    transition: 0.5s;
+    border-radius: 10%;
+    font-size: 15px;
+}
+.ok:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+
+/* .checkers{
+    display: flex;
+}
+
+
+
+ */
+
+
+
+ /* ここまでcheck.php */
+
+
+.thk{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 100px;
+}
+
+.thanksBox{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.thanks{
+    font-size: 25px;
+}
